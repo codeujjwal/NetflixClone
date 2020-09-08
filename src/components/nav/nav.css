@@ -1,0 +1,23 @@
+.nav {
+  position: fixed;
+  display: flex;
+  padding: 5px;
+  width: 100vw;
+  justify-content: space-between;
+  z-index: 100;
+
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+}
+
+.nav img {
+  z-index: 101;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  margin-right: 40px;
+}
+
+.black {
+  background-color: black;
+}

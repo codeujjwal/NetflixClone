@@ -1,0 +1,64 @@
+.banner_container {
+  object-fit: contain;
+  color: white;
+  height: 448px;
+  overflow: hidden;
+}
+
+.banner_content {
+  height: 190px;
+  margin-left: 30px;
+  padding-top: 100px;
+}
+.banner_content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 0.3rem;
+}
+
+.banner_content p {
+  line-height: 1.3rem;
+  width: 35rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.buttons button {
+  background-color: rgba(51, 51, 51, 0.5);
+  padding: 0.5rem 2rem;
+  margin: 0px 1rem;
+  font-weight: 700;
+  border-radius: 0.3vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.buttons button:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.fadebottom {
+  height: 10.5rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.6),
+    #111
+  );
+}
+
+@media (max-width: 550px) {
+  .banner_content h1 {
+    font-size: 2rem;
+  }
+  .buttons button {
+    padding: 0.5rem 1rem;
+  }
+  .banner_content p {
+    width: 250px;
+  }
+}
