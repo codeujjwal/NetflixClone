@@ -12,7 +12,7 @@ function Row({ title, fetchURL }) {
       return request;
     }
     fetchdata();
-  }, []);
+  }, [fetchURL]);
 
   return (
     <div className="row">
